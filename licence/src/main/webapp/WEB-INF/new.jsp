@@ -11,7 +11,7 @@
 <body>
 	<h1>Create New Person</h1>
 	<hr>
-	<form:form method="POST" action="/new" ModelAttribute="person">
+	<form:form method="POST" action="/new" modelAttribute="person">
 	<p>
 		<form:label path="firstName">First Name</form:label>
 		<form:errors path="firstName"/>
